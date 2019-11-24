@@ -6,7 +6,8 @@
   "scripts": {
     "test:watch": "./node_modules/.bin/jest --watch",
     "test": "./node_modules/.bin/jest",
-    "test:coverage": "./node_modules/.bin/jest --coverage"
+    "test:coverage": "./node_modules/.bin/jest --coverage",
+    "eslint": "eslint --fix index.js"
   },
   "repository": {
     "type": "git",
